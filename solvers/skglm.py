@@ -12,12 +12,10 @@ class Solver(BaseSolver):
     install_cmd = "conda"
     requirements = ["skglm"]
     references = [
-        'F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, '
-        'O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, '
-        'J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot'
-        ' and E. Duchesnay'
-        '"Scikit-learn: Machine Learning in Python", J. Mach. Learn. Res., '
-        'vol. 12, pp. 2825-283 (2011)'
+        'Q. Bertrand and Q. Klopfenstein and P.-A. Bannier and G. Gidel'
+        'and M. Massias'
+        '"Beyond L1: Faster and Better Sparse Models with skglm", '
+        'https://arxiv.org/abs/2204.07826'
     ]
 
     def set_objective(self, X, Y, lmbd):
