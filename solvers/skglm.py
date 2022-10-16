@@ -12,9 +12,9 @@ class Solver(BaseSolver):
     install_cmd = "conda"
     requirements = ["skglm"]
     references = [
-        'Q. Bertrand and Q. Klopfenstein and P.-A. Bannier and G. Gidel'
-        'and M. Massias'
-        '"Beyond L1: Faster and Better Sparse Models with skglm", NeurIPS 2022'
+        'Q. Bertrand and Q. Klopfenstein and P.-A. Bannier and G. Gidel '
+        'and M. Massias '
+        '"Beyond L1: Faster and Better Sparse Models with skglm", NeurIPS 2022 '
         'https://arxiv.org/abs/2204.07826'
     ]
 
