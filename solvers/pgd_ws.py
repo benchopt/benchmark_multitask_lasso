@@ -96,9 +96,9 @@ def pgd_(X, Y, lipschitz, init, _alpha, n_orient, dgap_freq=10, max_iter=200,
 
 
 class Solver(BaseSolver):
-    """Proximal gradient descent"""
+    """Proximal gradient descent with working set strategy."""
 
-    name = "pgd"
+    name = "pgd_ws"
     stopping_strategy = "callback"
 
     def set_objective(self, X, Y, lmbd):
