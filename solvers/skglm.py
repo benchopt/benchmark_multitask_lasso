@@ -14,7 +14,7 @@ class Solver(BaseSolver):
     references = [
         'Q. Bertrand and Q. Klopfenstein and P.-A. Bannier and G. Gidel'
         'and M. Massias'
-        '"Beyond L1: Faster and Better Sparse Models with skglm", '
+        '"Beyond L1: Faster and Better Sparse Models with skglm", NeurIPS 2022'
         'https://arxiv.org/abs/2204.07826'
     ]
 
